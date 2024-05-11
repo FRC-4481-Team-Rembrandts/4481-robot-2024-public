@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3366633613457033,
+      "y": 4.7522380216765185
+    },
+    "rotation": 155.12305018327908
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "FN123_7.5_note"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Improve_CN5.2"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

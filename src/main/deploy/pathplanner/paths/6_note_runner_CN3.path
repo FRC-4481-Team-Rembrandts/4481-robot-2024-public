@@ -1,0 +1,95 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.56,
+        "y": 4.17162382110312
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.074263472536269,
+        "y": 3.9132893184201287
+      },
+      "isLocked": false,
+      "linkedName": "CN3_pick"
+    },
+    {
+      "anchor": {
+        "x": 5.811294792752755,
+        "y": 6.5349061234253005
+      },
+      "prevControl": {
+        "x": 6.75852130259039,
+        "y": 6.64015351340726
+      },
+      "nextControl": {
+        "x": 5.528757945631564,
+        "y": 6.503513140411835
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.370869753394519,
+        "y": 4.783972271907248
+      },
+      "prevControl": {
+        "x": 6.765920969380168,
+        "y": 5.897078034493655
+      },
+      "nextControl": {
+        "x": 8.088465594180606,
+        "y": 3.463595924860847
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.093399361623898,
+        "y": 2.08581191055156
+      },
+      "prevControl": {
+        "x": 8.442479542301742,
+        "y": 1.7509338515180524
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "CN2_pick"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.0,
+      "rotationDegrees": -170.80424079803586,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 2.5,
+      "rotationDegrees": 108.72578784527234,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 1.5,
+    "rotation": 135.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Mid_runner_6_note",
+  "previewStartingState": {
+    "rotation": 126.16,
+    "velocity": 1.5
+  },
+  "useDefaultConstraints": true
+}

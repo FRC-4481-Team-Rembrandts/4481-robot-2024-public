@@ -1,0 +1,58 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.158265490055131,
+        "y": 6.138615211040798
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.05371725692545,
+        "y": 4.443209498710986
+      },
+      "isLocked": false,
+      "linkedName": "CN5_shooting(to FN3)"
+    },
+    {
+      "anchor": {
+        "x": 2.5247228667648325,
+        "y": 4.167946461634323
+      },
+      "prevControl": {
+        "x": 0.9475877850247489,
+        "y": 5.1265324126987855
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.25,
+      "rotationDegrees": 90.01,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 167.82854179141245,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "5_note_recovery",
+  "previewStartingState": {
+    "rotation": -171.4207983313914,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}

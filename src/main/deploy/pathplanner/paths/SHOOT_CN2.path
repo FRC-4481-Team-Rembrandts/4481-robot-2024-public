@@ -1,0 +1,74 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.284942222836145,
+        "y": 2.52
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.024228844266531,
+        "y": 2.1681730106317363
+      },
+      "isLocked": false,
+      "linkedName": "Recovery_CN2(4Note)"
+    },
+    {
+      "anchor": {
+        "x": 5.08346347640817,
+        "y": 1.8944530196752711
+      },
+      "prevControl": {
+        "x": 6.300920088666792,
+        "y": 1.753977256722354
+      },
+      "nextControl": {
+        "x": 4.319807995608836,
+        "y": 1.9825671136136553
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.2624388683482204,
+        "y": 2.878393735320566
+      },
+      "prevControl": {
+        "x": 3.4294141874664765,
+        "y": 2.767076855908395
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "CN2_shoot(4 note runner)"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.15,
+      "rotationDegrees": 142.51,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 3.8,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0.0,
+    "rotation": 142.51,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "4_note_recovery",
+  "previewStartingState": {
+    "rotation": -178.76283063941239,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

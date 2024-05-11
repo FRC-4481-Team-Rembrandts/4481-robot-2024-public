@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3526326353352003,
+      "y": 6.25743573165468
+    },
+    "rotation": -151.36
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Start_Cn4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shooting_CN4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "CN3_pick_stage"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shooting_CN3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shooting_CN5"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

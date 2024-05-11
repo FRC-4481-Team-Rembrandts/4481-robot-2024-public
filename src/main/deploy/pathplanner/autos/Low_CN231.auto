@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.2100668566698944,
+      "y": 4.119255498297474
+    },
+    "rotation": 126.36
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Low_CN231"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Understage_CN3.2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "CN35"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

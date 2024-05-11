@@ -1,0 +1,19 @@
+{
+  "robotWidth": 0.79,
+  "robotLength": 0.79,
+  "holonomicMode": true,
+  "pathFolders": [
+    "4_note_recovery",
+    "5_note_recovery",
+    "7_note",
+    "Low_CN231",
+    "Mid_runner_6_note",
+    "Stink auto"
+  ],
+  "autoFolders": [],
+  "defaultMaxVel": 4.0,
+  "defaultMaxAccel": 4.5,
+  "defaultMaxAngVel": 540.0,
+  "defaultMaxAngAccel": 720.0,
+  "maxModuleSpeed": 4.5
+}

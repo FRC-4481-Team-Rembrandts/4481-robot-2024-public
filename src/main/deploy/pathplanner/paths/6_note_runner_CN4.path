@@ -1,0 +1,95 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.56,
+        "y": 5.76
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.978584027098125,
+        "y": 5.616383447219109
+      },
+      "isLocked": false,
+      "linkedName": "CN4_pick"
+    },
+    {
+      "anchor": {
+        "x": 5.821101084669548,
+        "y": 6.563541857807322
+      },
+      "prevControl": {
+        "x": 6.4329956594871724,
+        "y": 6.644915060716575
+      },
+      "nextControl": {
+        "x": 5.533824400982135,
+        "y": 6.525338178881486
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.011922037834873,
+        "y": 4.716996660095762
+      },
+      "prevControl": {
+        "x": 7.744522546931667,
+        "y": 5.485770196458148
+      },
+      "nextControl": {
+        "x": 8.165009150531121,
+        "y": 4.276871211085079
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.56,
+        "y": 4.17162382110312
+      },
+      "prevControl": {
+        "x": 7.772723424234728,
+        "y": 4.17162382110312
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "CN3_pick"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1.05,
+      "rotationDegrees": -170.3021175405767,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.9500000000000002,
+      "rotationDegrees": 126.60817223167368,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 1.5,
+    "rotation": 126.16,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Mid_runner_6_note",
+  "previewStartingState": {
+    "rotation": 162.0,
+    "velocity": 1.5
+  },
+  "useDefaultConstraints": false
+}

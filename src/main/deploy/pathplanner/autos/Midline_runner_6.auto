@@ -1,0 +1,31 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3526326353352003,
+      "y": 6.25743573165468
+    },
+    "rotation": -151.36
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Midline_runner_6_note_CN5"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Midline_runner_6_note"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

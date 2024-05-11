@@ -1,0 +1,101 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.35,
+        "y": 6.39
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.535025660680028,
+        "y": 6.487381926673698
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.420636592162865,
+        "y": 7.264691729857955
+      },
+      "prevControl": {
+        "x": 2.2050697410876046,
+        "y": 6.740728186286426
+      },
+      "nextControl": {
+        "x": 4.640597530566998,
+        "y": 7.790549321104084
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 8.16,
+        "y": 5.58
+      },
+      "prevControl": {
+        "x": 7.547651549195871,
+        "y": 5.905310114489693
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Recover_CN4"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.9,
+      "rotationDegrees": -151.6625459421549,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.8,
+      "rotationDegrees": 156.64,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.15,
+      "rotationDegrees": -153.8195851018095,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 2.0,
+      "rotationDegrees": 157.5,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "New Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 2.0,
+        "maxAcceleration": 2.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0
+      }
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 4.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 156.64,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "5_note_recovery",
+  "previewStartingState": {
+    "rotation": -152.98,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

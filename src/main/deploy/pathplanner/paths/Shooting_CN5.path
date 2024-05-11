@@ -1,0 +1,75 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.23,
+        "y": 7.508146546542204
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.705165419517257,
+        "y": 7.328155479208991
+      },
+      "isLocked": false,
+      "linkedName": "Recover_CN5"
+    },
+    {
+      "anchor": {
+        "x": 4.158265490055131,
+        "y": 6.138615211040798
+      },
+      "prevControl": {
+        "x": 4.4960361834856055,
+        "y": 6.241414987302246
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "CN5_shooting(to FN3)"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.75,
+      "rotationDegrees": -168.81411996149558,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 0.6,
+      "rotationDegrees": -167.7077756376353,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "New Constraints Zone",
+      "minWaypointRelativePos": 0.75,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 1.5,
+        "maxAcceleration": 4.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0
+      }
+    }
+  ],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -170.60176700407396,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "5_note_recovery",
+  "previewStartingState": {
+    "rotation": 180.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

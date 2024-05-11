@@ -1,0 +1,43 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.5001569895805271,
+      "y": 1.5126252792756034
+    },
+    "rotation": -179.09061955080085
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Sprint_midline"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shoot_CN3_ejecter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "OpDeGok"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ShootGok"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

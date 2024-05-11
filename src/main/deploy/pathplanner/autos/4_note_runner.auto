@@ -1,0 +1,55 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3216735004898588,
+      "y": 3.1957618200950693
+    },
+    "rotation": 125.07998703759796
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "LOW_CN1"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SHOOT_CN12"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SHOOT_CN2"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "CN3_understage"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SHOOT_CN3"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "FN1_4_note_runner"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

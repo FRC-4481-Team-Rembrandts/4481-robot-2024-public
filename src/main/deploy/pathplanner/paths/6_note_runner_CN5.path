@@ -1,0 +1,100 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.578844861129818,
+        "y": 7.206262573853738
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.364707198880592,
+        "y": 7.155666835699035
+      },
+      "isLocked": false,
+      "linkedName": "CN5_nonote"
+    },
+    {
+      "anchor": {
+        "x": 5.874661144344953,
+        "y": 6.72909113315748
+      },
+      "prevControl": {
+        "x": 6.216157226879735,
+        "y": 6.804053687860238
+      },
+      "nextControl": {
+        "x": 5.475395244982786,
+        "y": 6.641447399151151
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.858834925129059,
+        "y": 5.951261506252616
+      },
+      "prevControl": {
+        "x": 7.440092640432152,
+        "y": 6.087596203595796
+      },
+      "nextControl": {
+        "x": 8.277577209825964,
+        "y": 5.814926808909437
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 7.56,
+        "y": 5.76
+      },
+      "prevControl": {
+        "x": 7.724883701515655,
+        "y": 5.750334670832512
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "CN4_pick"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.85,
+      "rotationDegrees": -168.82,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.45,
+      "rotationDegrees": -168.82,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 2.05,
+      "rotationDegrees": 164.05,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 4.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 1.5,
+    "rotation": 162.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Mid_runner_6_note",
+  "previewStartingState": {
+    "rotation": -167.56,
+    "velocity": 1.5
+  },
+  "useDefaultConstraints": false
+}

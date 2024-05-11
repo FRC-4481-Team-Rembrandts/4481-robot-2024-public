@@ -1,0 +1,63 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.384717666232486,
+        "y": 5.979250297765127
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 4.380820777413068,
+        "y": 4.626121508850206
+      },
+      "isLocked": false,
+      "linkedName": "CN3_Under_Stage"
+    },
+    {
+      "anchor": {
+        "x": 8.195626573071328,
+        "y": 4.15
+      },
+      "prevControl": {
+        "x": 5.77081659889622,
+        "y": 4.19869096333685
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Recover_CN3"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.1,
+      "rotationDegrees": 175.4637659690107,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 0.2,
+      "rotationDegrees": 172.46561048147035,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 4.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 180.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "5_note_recovery",
+  "previewStartingState": {
+    "rotation": -178.0,
+    "velocity": 1.5
+  },
+  "useDefaultConstraints": false
+}
